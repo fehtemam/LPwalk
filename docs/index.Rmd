@@ -33,7 +33,7 @@ setwd("~/Documents/0PhD/0Cleveland/Processing/LPwalk/docs")
 
 require(ggplot2)
 require(reshape2)
-require(tidyr)
+#require(tidyr)
 require(plyr)
 
 ```
@@ -62,7 +62,7 @@ Step response (designed to measured) for both higher and lower accelerations:
 ```{r m1f6, echo=FALSE, cache=TRUE}
 knitr::include_graphics('Step_response.png')
 ```
-\#designed #measured # emg #impulse #step
+`Tags: #designed #measured # emg #impulse #step`
 
 ## Meeting of 2017-06-23
 The effect of input frequency bandwidth on impulse response function of the treadmill:  
@@ -86,7 +86,7 @@ IRFs for hip extensors:
 ```{r m2f5, echo=FALSE, cache=TRUE}
 knitr::include_graphics('upper2.png')
 ```
-\#impulse #step #input #frequency #bandwidth #ringing #artifact
+`Tags: #impulse #step #input #frequency #bandwidth #ringing #artifact`
 
 ## Meeting of 2017-07-07
 Slices of IRFs (at phases of gait cycle for which the largest changes in the activity are observed) for TA and plantarflexors. IRFs were calculated using input bandwidths of 5, 8 and 10 Hz to see the effect of ringing artifacts on the responses.  
@@ -103,7 +103,7 @@ knitr::include_graphics('slices_8Hz.png')
 ```{r m3f3, echo=FALSE, cache=TRUE}
 knitr::include_graphics('slices_10Hz.png')
 ```
-\#input #frequency #bandwidth #slices
+`Tags: #input #frequency #bandwidth #slices`
 
 ## Meeting of 2017-07-28
 
@@ -116,7 +116,7 @@ knitr::include_graphics('emgs_P1z.png')
 ```{r m4f3, echo=FALSE, cache=TRUE}
 knitr::include_graphics('emgs_P2z.png')
 ```
-\#emg #average #baseline #Winter
+`Tags: #emg #average #baseline #Winter`
 
 ## Meeting of 2017-08-11
 ```{r m5f1, echo=FALSE, cache=TRUE}
@@ -144,7 +144,7 @@ Slices at the phase where the low perturbation shows maximum changes:
 ```{r m5f7, echo=FALSE, cache=TRUE}
 knitr::include_graphics('slicesLowLeg_L.png')
 ```
-\#irf #emg #low #high
+`Tags: #irf #emg #low #high`
 
 ## Meeting of 2017-08-25
 ### Averaged EMG profiles
@@ -190,7 +190,7 @@ knitr::include_graphics('4slice_hams.png')
 ```
 So far I think the conclusion is that we have very clear responses in all leg muscles and the frequency domain approach we used was successful in identifying these responses. Also the latencies are reasonable even though this method cannot guarantee accurate estimation of latencies since the perturbation bandwidth is limited (i.e. there might be components of responses that we are missing because we have not perturbed the system over all frequencies it responds to) and also we do not include all harmonics involved in captured responses (i.e. in practice we assume after certain number of modes the harmonics are small enough that they could be ignored while in theory the number of harmonic modes that should be used to describe the response completely is infinite). One step that has to be followed for AP perturbations is to choose phases that best describe the responses of the hip and the trunk muscles. I have not done that yet.
 
-\#emg #slices #upperleg #thigh #lowerleg #shank #averages #baseline
+`Tags: #emg #slices #upperleg #thigh #lowerleg #shank #averages #baseline`
 
 ## Meeting of 2017-09-08
 ### Statistics for EMGs
@@ -215,7 +215,7 @@ We use bootstapping to calculate p-values defined based on the maximum value of 
 | **`ESL`** | **`f`** | p |
 | EST | p | p |
 
-\#emg #statistics
+`Tags: #emg #statistics`
 
 ## Meeting of 2017-09-22
 
@@ -249,7 +249,7 @@ Up to mode 18
 ```{r m8f7, echo=FALSE, cache=TRUE}
 knitr::include_graphics('im7.png')
 ```
-\#modes #irf
+`Tags: #modes #irf`
 
 ## Meeting of 2017-10-06
 Right leg
@@ -276,7 +276,7 @@ Kinematics for right leg (late swing)
 ```{r m9f6, echo=FALSE, cache=TRUE}
 knitr::include_graphics('KinU.png')
 ```
-\#emg #kinematics #slices #ipsilateral #contralateral
+`Tags: #emg #kinematics #slices #ipsilateral #contralateral`
 
 ## Meeting of 2017-10-20
 
@@ -305,7 +305,7 @@ knitr::include_graphics('Heel_belt_slice_CI.png')
 ```{r m10f7, echo=FALSE, cache=TRUE}
 knitr::include_graphics('Heel_belt_slice.png')
 ```
-\#irf #slices #upperleg #lowerleg #ipsilateral #contralateral #belt #impulse #step
+`Tags: #irf #slices #upperleg #lowerleg #ipsilateral #contralateral #belt #impulse #step`
 
 ## Meeting of 2017-11-03
 
