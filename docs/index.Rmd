@@ -1,16 +1,21 @@
 ---
 title: "Linear periodic estimation of responses in perturbed treadmill walking"
 output:
+  html_document:
+    df_print: paged
+    highlight: zenburn
+    theme: spacelab
+    toc: yes
+    toc_float: yes
+  pdf_document:
+    toc: yes
   html_notebook:
     highlight: zenburn
     theme: spacelab
     toc: yes
     toc_float: yes
-  html_document:
-    df_print: paged
-    toc: yes
   github_document: default
-editor_options: 
+editor_options:
   chunk_output_type: inline
 ---
 ### F. Ehtemam, H. Wang, A. van den Bogert & T. Kiemel 
@@ -21,7 +26,7 @@ knitr::opts_chunk$set(echo = TRUE)
 ```
 
 ```{r Packages, include=FALSE, warning=FALSE, message=FALSE}
-setwd("~/Documents/0PhD/0Cleveland/Processing/LPwalk/")
+setwd("~/Documents/0PhD/0Cleveland/Processing/LPwalk/docs")
 
 require(ggplot2)
 require(reshape2)
@@ -324,7 +329,7 @@ knitr::include_graphics('nov_kin_slice.png')
 
 ## Meeting of 2017-11-17
 
-
+New line
 
 
 </div>
