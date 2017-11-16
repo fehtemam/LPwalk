@@ -16,10 +16,10 @@ output:
     toc_float: yes
   github_document: default
 editor_options:
-  chunk_output_type: inline
+  chunk_output_type: console
 ---
 ### F. Ehtemam, H. Wang, A. van den Bogert & T. Kiemel 
-Copyright &copy; 2017  University of Maryland & Cleveland State University
+Copyright &copy; 2017 &emsp; University of Maryland & Cleveland State University
 
 ***
 
@@ -341,7 +341,7 @@ knitr::include_graphics('nov_kin.png')
 ```{r m11f9, echo=FALSE, cache=TRUE}
 knitr::include_graphics('nov_kin_slice.png')
 ```
-\#modes #individual #heel #belt #kinematics #knee #leg #ankle #angle #hip
+`Tags: #modes #individual #heel #belt #kinematics #knee #leg #ankle #angle #hip`
 
 ## Meeting of 2017-11-17
 
