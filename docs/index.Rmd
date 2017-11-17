@@ -62,7 +62,9 @@ Step response (designed to measured) for both higher and lower accelerations:
 ```{r m1f6, echo=FALSE, cache=TRUE}
 knitr::include_graphics('Step_response.png')
 ```
-`Tags: #designed #measured # emg #impulse #step`
+`Tags: #designed #measured # emg #impulse #step`  
+
+***  
 
 ## Meeting of 2017-06-23
 The effect of input frequency bandwidth on impulse response function of the treadmill:  
@@ -86,7 +88,9 @@ IRFs for hip extensors:
 ```{r m2f5, echo=FALSE, cache=TRUE}
 knitr::include_graphics('upper2.png')
 ```
-`Tags: #impulse #step #input #frequency #bandwidth #ringing #artifact`
+`Tags: #impulse #step #input #frequency #bandwidth #ringing #artifact`  
+
+***
 
 ## Meeting of 2017-07-07
 Slices of IRFs (at phases of gait cycle for which the largest changes in the activity are observed) for TA and plantarflexors. IRFs were calculated using input bandwidths of 5, 8 and 10 Hz to see the effect of ringing artifacts on the responses.  
@@ -105,6 +109,8 @@ knitr::include_graphics('slices_10Hz.png')
 ```
 `Tags: #input #frequency #bandwidth #slices`
 
+***
+
 ## Meeting of 2017-07-28
 
 ```{r m4f1, echo=FALSE, cache=TRUE}
@@ -117,6 +123,8 @@ knitr::include_graphics('emgs_P1z.png')
 knitr::include_graphics('emgs_P2z.png')
 ```
 `Tags: #emg #average #baseline #Winter`
+
+***
 
 ## Meeting of 2017-08-11
 ```{r m5f1, echo=FALSE, cache=TRUE}
@@ -145,6 +153,8 @@ Slices at the phase where the low perturbation shows maximum changes:
 knitr::include_graphics('slicesLowLeg_L.png')
 ```
 `Tags: #irf #emg #low #high`
+
+***
 
 ## Meeting of 2017-08-25
 ### Averaged EMG profiles
@@ -192,10 +202,13 @@ So far I think the conclusion is that we have very clear responses in all leg mu
 
 `Tags: #emg #slices #upperleg #thigh #lowerleg #shank #averages #baseline`
 
+***
+
 ## Meeting of 2017-09-08
 ### Statistics for EMGs
 
-We use bootstapping to calculate p-values defined based on the maximum value of IRFs (the entire IRF not just one slice). This determines if the IRF that is averaged across all subjects is significantly different than zero or not. If the averaged IRF for a muscle is significantly different than zero then we can look at slices of the IRFs for that muscle otherwise responses for that muscle are not significant (p>0.05). The table below summarizes the results of tests for significance.
+We use bootstapping to calculate p-values defined based on the maximum value of IRFs (the entire IRF not just one slice). This determines if the IRF that is averaged across all subjects is significantly different than zero or not. If the averaged IRF for a muscle is significantly different than zero then we can look at slices of the IRFs for that muscle otherwise responses for that muscle are not significant (p>0.05). The table below summarizes the results of tests for significance.  
+'p' means passed the test of significance and 'f' means failed.  
 
 | Muscle | Low perturbation | High perturbation |
 | --- | :---: | :---: |
@@ -216,6 +229,8 @@ We use bootstapping to calculate p-values defined based on the maximum value of 
 | EST | p | p |
 
 `Tags: #emg #statistics`
+
+***
 
 ## Meeting of 2017-09-22
 
@@ -251,6 +266,8 @@ knitr::include_graphics('im7.png')
 ```
 `Tags: #modes #irf`
 
+***
+
 ## Meeting of 2017-10-06
 Right lower leg
 ```{r m9f1, echo=FALSE, cache=TRUE}
@@ -277,6 +294,8 @@ Kinematics for right leg (late swing)
 knitr::include_graphics('KinU.png')
 ```
 `Tags: #emg #kinematics #slices #ipsilateral #contralateral`
+
+***
 
 ## Meeting of 2017-10-20
 
@@ -306,6 +325,8 @@ knitr::include_graphics('Heel_belt_slice_CI.png')
 knitr::include_graphics('Heel_belt_slice.png')
 ```
 `Tags: #irf #slices #upperleg #lowerleg #ipsilateral #contralateral #belt #impulse #step`
+
+***
 
 ## Meeting of 2017-11-03
 
@@ -344,6 +365,8 @@ knitr::include_graphics('nov_kin_slice.png')
 ```
 `Tags: #modes #individual #heel #belt #kinematics #knee #leg #ankle #angle #hip`
 
+***
+
 ## Meeting of 2017-11-17
 
 ### Statistics for kinematics
@@ -379,8 +402,9 @@ knitr::include_graphics('trp_Kr.png')
 ```{r m12f2, echo=FALSE, cache=TRUE}
 knitr::include_graphics('trp_Kl.png') #
 ```
+`Tags: #statistics #kinematics #leg #knee #ankle #hip #angle #ipsilateral #contralateral`
 
-
+***
 
 
 </div>
