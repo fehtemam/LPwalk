@@ -371,7 +371,7 @@ Right is ipsilateral and left is contralateral.
 | AVG Knee angle | p | p |
 | AVG Hip angle | p | p |
 
-Kinematics for ipsilateral and contralateral legs
+Kinematics for ipsilateral and contralateral legs for high perturbation slightly after heel strike.
 
 ```{r m12f1, echo=FALSE, cache=TRUE}
 knitr::include_graphics('trp_Kr.png')
@@ -380,7 +380,7 @@ knitr::include_graphics('trp_Kr.png')
 knitr::include_graphics('trp_Kl.png') #
 ```
 
-All of the above figures are for high perturbation.
+
 
 
 </div>
