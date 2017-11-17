@@ -374,7 +374,7 @@ knitr::include_graphics('nov_kin_slice.png')
 knitr::include_graphics('trp_Kr.png')
 ```
 ```{r m12f2, echo=FALSE, cache=TRUE}
-knitr::include_graphics('trp_Kl.png')
+knitr::include_graphics('trp_Kl.png') #
 ```
 
 
