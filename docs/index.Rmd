@@ -252,19 +252,19 @@ knitr::include_graphics('im7.png')
 `Tags: #modes #irf`
 
 ## Meeting of 2017-10-06
-Right leg
+Right lower leg
 ```{r m9f1, echo=FALSE, cache=TRUE}
 knitr::include_graphics('emgLR.png')
 ```
-Left leg
+Left lower leg
 ```{r m9f2, echo=FALSE, cache=TRUE}
 knitr::include_graphics('emgLL.png')
 ```
-Right leg
+Right upper leg (y labels are not correct)
 ```{r m9f3, echo=FALSE, cache=TRUE}
 knitr::include_graphics('emgUR.png')
 ```
-Left leg
+Left upper leg (y labels are not correct)
 ```{r m9f4, echo=FALSE, cache=TRUE}
 knitr::include_graphics('emgUL.png')
 ```
@@ -329,6 +329,7 @@ individual subjects across all perturbation phases 15% of the cycle after onset 
 ```{r m11f5, echo=FALSE, cache=TRUE}
 knitr::include_graphics('diag_15all.png')
 ```
+Lower leg slices for two different phases of perturbation. The further we get from the heel strike the smaller TA responses become. So even though there is between subject variability in heel velocity close to heel strike, we can't slice IRFs further away from heel strike if we want to show a meaningful response from TA.
 ```{r m11f6, echo=FALSE, cache=TRUE}
 knitr::include_graphics('nov_ta1.png')
 ```
@@ -351,11 +352,30 @@ knitr::include_graphics('nov_kin_slice.png')
 
 | Kinematic variable | Low perturbation | High perturbation |
 | --- | :---: | :---: |
-| Heel velocity | p | p |
-| Leg angle | p | p |
-| Ankle angle | p | p |
-| Knee angle | p | p |
-| Hip angle | p | p |
+| Right Heel velocity | p | p |
+| Right Leg angle | p | p |
+| Right Ankle angle | p | p |
+| Right Knee angle | p | p |
+| Right Hip angle | p | p |
+| ------------------------ | ------------------------ | ------------------------ |
+| **`Left Heel velocity`** | **`f`** | p |
+| **`Left Leg angle`** | **`f`** | p |
+| **`Left Ankle angle`** | **`f`** | p |
+| **`Left Knee angle`** | **`f`** | p |
+| Left Hip angle | p | p |
+| ------------------------ | ------------------------ | ------------------------ |
+| **`AVG Heel velocity`** | **`f`** | p |
+| **`AVG Leg angle`** | **`f`** | **`f`** |
+| AVG Ankle angle | p | p |
+| AVG Knee angle | p | p |
+| AVG Hip angle | p | p |
+
+```{r m12f1, echo=FALSE, cache=TRUE}
+knitr::include_graphics('trp_Kr.png')
+```
+```{r m12f2, echo=FALSE, cache=TRUE}
+knitr::include_graphics('trp_Kl.png')
+```
 
 
 
