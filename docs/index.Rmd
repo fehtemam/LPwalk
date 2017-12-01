@@ -18,12 +18,13 @@ output:
 editor_options:
   chunk_output_type: console
 ---
-### F. Ehtemam, H. Wang, A. van den Bogert & T. Kiemel 
-Copyright &copy; 2017 &emsp; University of Maryland & Cleveland State University
+### ^1^F. Ehtemam, ^2^H. Wang, ^2^A. van den Bogert & ^1^T. Kiemel 
+Copyright &copy; 2017 &emsp; ^1^University of Maryland & ^2^Cleveland State University
 
 ***
 
 <div style="line-height: 2em;">
+
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
 ```
@@ -389,7 +390,7 @@ Right is ipsilateral and left is contralateral.
 | Left Hip angle | p | p |
 | ------------------------ | ------------------------ | ------------------------ |
 | **`AVG Heel velocity`** | **`f`** | p |
-| **`AVG Leg angle`** | **`f`** | **`f`** |
+| AVG Leg angle | p | p |
 | AVG Ankle angle | p | p |
 | AVG Knee angle | p | p |
 | AVG Hip angle | p | p |
@@ -402,9 +403,23 @@ knitr::include_graphics('trp_Kr.png')
 ```{r m12f2, echo=FALSE, cache=TRUE}
 knitr::include_graphics('trp_Kl.png') #
 ```
+`Comments: The graph for contralateral leg has some errors.`  
 `Tags: #statistics #kinematics #leg #knee #ankle #hip #angle #ipsilateral #contralateral`
 
 ***
+
+## Meeting of 2017-12-01  
+
+```{r m13f1, echo=FALSE, cache=TRUE}
+knitr::include_graphics('mp_K.png')
+```
+```{r m13f2, echo=FALSE, cache=TRUE}
+knitr::include_graphics('trp_Kr2.png')
+```
+```{r m13f3, echo=FALSE, cache=TRUE}
+knitr::include_graphics('trp_Kl2.png')
+```
+
 
 
 </div>
