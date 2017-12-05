@@ -410,6 +410,8 @@ knitr::include_graphics('trp_Kl.png') #
 
 ## Meeting of 2017-12-01  
 
+**Early stance** kinematic responses (joint angles and AP displacements)  
+
 ```{r m13f1, echo=FALSE, cache=TRUE}
 knitr::include_graphics('mp_K.png')
 ```
@@ -420,6 +422,33 @@ knitr::include_graphics('trp_Kr2.png')
 knitr::include_graphics('trp_Kl2.png')
 ```
 
+***
+
+## Meeting of 2017-12-15  
+
+**Early stance** kinematic responses (joint angles)  
+
+```{r m14f1, echo=FALSE, cache=TRUE}
+knitr::include_graphics('mp_K.png')
+```
+```{r m14f2, echo=FALSE, cache=TRUE}
+knitr::include_graphics('trp_Kr.png')
+```
+```{r m14f3, echo=FALSE, cache=TRUE}
+knitr::include_graphics('trp_Kl.png')
+```
+
+**Early stance** kinematic responses (AP displacements)
+
+```{r m14f4, echo=FALSE, cache=TRUE}
+knitr::include_graphics('mp_K2.png')
+```
+```{r m14f5, echo=FALSE, cache=TRUE}
+knitr::include_graphics('trp_Kr2.png')
+```
+```{r m14f6, echo=FALSE, cache=TRUE}
+knitr::include_graphics('trp_Kl2.png')
+```
 
 
 </div>
