@@ -441,7 +441,7 @@ Here I list some major issues that have been addressed in the last six months an
 
 * **Left and right symmetry.** We used the assumption that EMG activity was symmetric and looked at EMG responses for the left leg (i.e. contralateral leg) assuming they were half a cycle apart from the right leg. Results showed that for both lower leg and upper leg muscle groups the left leg responses were mostly insignificant. This could be due to the fact that the assumption of symmetry is not valid and does not capture the contribution of the contralateral leg or it could be that the perturbation only elicited responses in a small part of the cycle which could be damped by only activating the ipsilateral muscles.  
 
-* **Between subject variability in kinematics.** We revisited the analysis of the impulse response and the step response of the treadmill this time comparing these responses to the impulse response (velocity) and the step response (position) of the heel marker. While the treadmill step response approached the value of one fairly quickly for all subjects, the heel step response to a perturbation delivered right after heel strike showed a large between subject variability. We then examined the effect of number of harmonic modes on this variability to see if using more modes would result in a lower variability. The effect of number of modes was insignificant. We then looked at diagonal slices of IRFs 15% after the onset of perturbation to see if the between subject variability is a function of the phase of the cycle. It turned out that the variability is small between 5% to 40% of the cycle. This is approximately the region where the foot is in complete contact with the belt. We then looked at EMG responses around for a perturbation delivered around 10% of the cycle (i.e. slightly away from heel-strike) to see if could have both significant EMG responses and low variability in heel kinematics but the response for TA at this point is not significant. We decided to present responses earlier where TA shows significant changes even though kinematic variability is larger.  
+* **Between subject variability in kinematics.** We revisited the analysis of the impulse response and the step response of the treadmill this time comparing these responses to the impulse response (velocity) and the step response (position) of the heel marker. While the treadmill step response approached the value of one fairly quickly for all subjects, the heel step response to a perturbation delivered right after heel strike showed a large between subject variability. We then examined the effect of number of harmonic modes on this variability to see if using more modes would result in a lower variability. The effect of number of modes was insignificant. We then looked at diagonal slices of IRFs 15% after the onset of perturbation to see if the between subject variability is a function of the phase of the cycle. It turned out that the variability is small between 5% to 40% of the cycle. This is approximately the region where the foot is in complete contact with the belt. We then looked at EMG responses for a perturbation delivered around 10% of the cycle (i.e. slightly away from heel-strike) to see if we could have both significant EMG responses and low variability in heel kinematics but the response for TA at this point is not significant. We decided to present responses earlier where TA shows significant changes even though kinematic variability is larger.  
 
 * **Kinematic responses and statistics.** We looked at statistical tests for various kinematic variables. The high perturbation always showed significant kinematic responses for both legs. The low perturbation had mixed results depending on the leg. This was not surprising since we saw earlier that low perturbation did not elicit significant responses in all muscles so we knew that the lower signal to noise ratio prevents us from seeing significant effects for some outputs.  
 
@@ -456,29 +456,156 @@ I think after this we should be in a good position to write the manuscript for t
 
 ## Meeting of 2017-12-15  
 
-**Early stance** kinematic responses (joint angles)  
+**Single support - Ipsilateral leg**  
+  
+Kinematic responses (joint angles and joint displacements):  
 
 ```{r m14f1, echo=FALSE, cache=TRUE}
 knitr::include_graphics('mp_K.png')
 ```
 ```{r m14f2, echo=FALSE, cache=TRUE}
-knitr::include_graphics('trp_Kr.png')
+knitr::include_graphics('trp_KrA60.png')
 ```
 ```{r m14f3, echo=FALSE, cache=TRUE}
-knitr::include_graphics('trp_Kl.png')
-```
-
-**Early stance** kinematic responses (AP displacements)
-
-```{r m14f4, echo=FALSE, cache=TRUE}
 knitr::include_graphics('mp_K2.png')
 ```
+```{r m14f4, echo=FALSE, cache=TRUE}
+knitr::include_graphics('trp_KrP60.png')
+```
+  
+EMG responses (lower leg and upper leg):  
+
 ```{r m14f5, echo=FALSE, cache=TRUE}
-knitr::include_graphics('trp_Kr2.png')
+knitr::include_graphics('mp_El.png')
 ```
 ```{r m14f6, echo=FALSE, cache=TRUE}
-knitr::include_graphics('trp_Kl2.png')
+knitr::include_graphics('trp_ErL60.png')
+```
+```{r m14f7, echo=FALSE, cache=TRUE}
+knitr::include_graphics('mp_Eu.png')
+```
+```{r m14f8, echo=FALSE, cache=TRUE}
+knitr::include_graphics('trp_ErU60.png')
 ```
 
+**Double support - Ipsilateral leg**  
+  
+Kinematic responses (joint angles and joint displacements):  
+
+```{r m14f9, echo=FALSE, cache=TRUE}
+knitr::include_graphics('mp_K.png')
+```
+```{r m14f10, echo=FALSE, cache=TRUE}
+knitr::include_graphics('trp_KrA40.png')
+```
+```{r m14f11, echo=FALSE, cache=TRUE}
+knitr::include_graphics('mp_K2.png')
+```
+```{r m14f12, echo=FALSE, cache=TRUE}
+knitr::include_graphics('trp_KrP40.png')
+```
+  
+EMG responses (lower leg and upper leg):  
+
+```{r m14f13, echo=FALSE, cache=TRUE}
+knitr::include_graphics('mp_El.png')
+```
+```{r m14f14, echo=FALSE, cache=TRUE}
+knitr::include_graphics('trp_ErL40.png')
+```
+```{r m14f15, echo=FALSE, cache=TRUE}
+knitr::include_graphics('mp_Eu.png')
+```
+```{r m14f16, echo=FALSE, cache=TRUE}
+knitr::include_graphics('trp_ErU40.png')
+```
+
+**Single support - Both legs**  
+
+Kinematic responses (joint angles and joint displacements):  
+
+```{r m14f17, echo=FALSE, cache=TRUE}
+knitr::include_graphics('mp_K.png')
+```
+```{r m14f18, echo=FALSE, cache=TRUE}
+knitr::include_graphics('trp_KrA60.png')
+```
+```{r m14f19, echo=FALSE, cache=TRUE}
+knitr::include_graphics('trp_KlA60.png')
+```
+```{r m14f20, echo=FALSE, cache=TRUE}
+knitr::include_graphics('mp_K2.png')
+```
+```{r m14f21, echo=FALSE, cache=TRUE}
+knitr::include_graphics('trp_KrP60.png')
+```
+```{r m14f22, echo=FALSE, cache=TRUE}
+knitr::include_graphics('trp_KlP60.png')
+```
+  
+EMG responses (lower leg and upper leg):  
+
+```{r m14f23, echo=FALSE, cache=TRUE}
+knitr::include_graphics('mp_El.png')
+```
+```{r m14f24, echo=FALSE, cache=TRUE}
+knitr::include_graphics('trp_ErL60.png')
+```
+```{r m14f25, echo=FALSE, cache=TRUE}
+knitr::include_graphics('trp_ElL60.png')
+```
+```{r m14f26, echo=FALSE, cache=TRUE}
+knitr::include_graphics('mp_Eu.png')
+```
+```{r m14f27, echo=FALSE, cache=TRUE}
+knitr::include_graphics('trp_ErU60.png')
+```
+```{r m14f28, echo=FALSE, cache=TRUE}
+knitr::include_graphics('trp_ElU60.png')
+```
+  
+**Double support - Both legs**  
+  
+Kinematic responses (joint angles and joint displacements):  
+
+```{r m14f29, echo=FALSE, cache=TRUE}
+knitr::include_graphics('mp_K.png')
+```
+```{r m14f30, echo=FALSE, cache=TRUE}
+knitr::include_graphics('trp_KrA40.png')
+```
+```{r m14f31, echo=FALSE, cache=TRUE}
+knitr::include_graphics('trp_KlA40.png')
+```
+```{r m14f32, echo=FALSE, cache=TRUE}
+knitr::include_graphics('mp_K2.png')
+```
+```{r m14f33, echo=FALSE, cache=TRUE}
+knitr::include_graphics('trp_KrP40.png')
+```
+```{r m14f34, echo=FALSE, cache=TRUE}
+knitr::include_graphics('trp_KlP40.png')
+```
+  
+EMG responses (lower leg and upper leg):  
+
+```{r m14f35, echo=FALSE, cache=TRUE}
+knitr::include_graphics('mp_El.png')
+```
+```{r m14f36, echo=FALSE, cache=TRUE}
+knitr::include_graphics('trp_ErL40.png')
+```
+```{r m14f37, echo=FALSE, cache=TRUE}
+knitr::include_graphics('trp_ElL40.png')
+```
+```{r m14f38, echo=FALSE, cache=TRUE}
+knitr::include_graphics('mp_Eu.png')
+```
+```{r m14f39, echo=FALSE, cache=TRUE}
+knitr::include_graphics('trp_ErU40.png')
+```
+```{r m14f40, echo=FALSE, cache=TRUE}
+knitr::include_graphics('trp_ElU40.png')
+```
 
 </div>
