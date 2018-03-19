@@ -451,6 +451,7 @@ Here I list some major issues that have been addressed in the last six months an
 Regardless of when the perturbation is delivered, we can categorize EMG responses into two groups: one set of responses happen in mid-stance in response to the perturbation delivered in early stance. This is mainly the responses from plantarflexors. This corresponds to the single support phase which is not very difficult to understand. We have a good understanding of what is happening here.  
 The second set of responses happen in early stance either in response to perturbation delivered in the late swing or the perturbation delivered in early stance. This corresponds to the double support phase which is more difficult to understand since it involves cooperation of both legs. Since we don't have recordings from the contralateral leg, it is difficult to draw conclusions about the whole body movement. However, we still can explain the role of the ipsilateral leg during double support.  
 What I will do next is to present both EMG and kinematic responses for the ipsilateral leg during single support. Then I will show the same responses during double support. This makes it easier to draw conclusions on what we have. After this I will show both left and right leg responses assuming total symmetry. We can discuss if anything conclusive comes out of this assumption.  
+
 I think after this we should be in a good position to write the manuscript for these results.  
 
 
